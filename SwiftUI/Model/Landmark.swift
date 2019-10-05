@@ -24,7 +24,7 @@ struct Landmark: Hashable, Codable {
             longitude: coordinates.longitude)
     }
 
-    enum Category: Stirng, CaseIterable, Codable, Hashable {
+    enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
         case lakes = "Lakes"
         case rivers = "Rivers"
