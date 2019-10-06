@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5968F4F7234A26F7003272B7 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968F4F6234A26F7003272B7 /* PageControl.swift */; };
 		5975022F2347FA4F00DD93B0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975022E2347FA4F00DD93B0 /* MapView.swift */; };
 		597502322347FDE900DD93B0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597502312347FDE900DD93B0 /* Landmark.swift */; };
 		597502382348029C00DD93B0 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597502372348029C00DD93B0 /* LandmarkRow.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5968F4F6234A26F7003272B7 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		5975022E2347FA4F00DD93B0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		597502312347FDE900DD93B0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		597502372348029C00DD93B0 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 			children = (
 				59B5250E2348D86D0028FF79 /* Home.swift */,
 				59B525102348D9D80028FF79 /* CategoryRow.swift */,
+				5968F4F6234A26F7003272B7 /* PageControl.swift */,
 				59E7788A2349F77D00B1C528 /* PageView.swift */,
 				59E778882349CB7600B1C528 /* PageViewController.swift */,
 			);
@@ -452,6 +455,7 @@
 				59B525262349AD030028FF79 /* HikeDetail.swift in Sources */,
 				59B5251E2349A6150028FF79 /* Hike.swift in Sources */,
 				59B52516234957E30028FF79 /* Profile.swift in Sources */,
+				5968F4F7234A26F7003272B7 /* PageControl.swift in Sources */,
 				59B5250F2348D86D0028FF79 /* Home.swift in Sources */,
 				599CB046233902C000D39D10 /* LandmarkDetail.swift in Sources */,
 				59B525282349B4920028FF79 /* ProfileEditor.swift in Sources */,
