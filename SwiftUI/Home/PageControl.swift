@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct PageControl: UIViewRepresentable {
     var numberOfPages: Int
@@ -16,9 +17,10 @@ struct PageControl: UIViewRepresentable {
         return Coordinator(self)
     }
 
-    func makeUIView(context: UIViewRepresentableContext<PageControl>) -> PageControl.UIViewType {
+    func makeUIView(context: UIViewRepresentableContext<PageControl>) -> UIPageControl {
         let control = UIPageControl()
         control.numberOfPages = numberOfPages
+        control.tintColor = .gray
         control.addTarget(
             context.coordinator,
             action: #selector(context.coordinator.updateCurrentPage(sender:)),
